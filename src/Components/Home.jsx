@@ -8,6 +8,7 @@ const Home = () => {
              return ()=> clearInterval(settime)
         }
     useEffect(()=>{
+      console.log('this is data');
         Time()
     },[])
 
